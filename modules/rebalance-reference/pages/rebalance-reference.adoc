@@ -30,7 +30,7 @@ Therefore, if all six services have been deployed, six stages occur in a success
 
 Among the details provided for each service are the times at which rebalance-processes started and ended, the durations of rebalance-processes, and the numbers of documents already handled and still to be handled.
 When rebalance concludes successfully, a report is duly generated, with all fields corresponding to the successful completion of the rebalance-processes they represent.
-In cases where rebalance is interrupted (for example, by the user's left-clicking the *Stop Rebalance* button, in Couchbase Web Console, or due to auto-failover), a generated report will describe a partially unsuccessful rebalance; indicating, in certain fields, an incomplete or unstarted rebalance-process, by means of the value `false`.
+In cases where rebalance is interrupted (for example, by the user's clicking the *Stop Rebalance* button, in Couchbase Web Console, or due to auto-failover), a generated report will describe a partially unsuccessful rebalance; indicating, in certain fields, an incomplete or unstarted rebalance-process, by means of the value `false`.
 
 [#standard-fields]
 == Standard Fields
